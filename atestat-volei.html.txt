@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+  <meta charset="UTF-8">
+  <title>Atestat Informatică - Volei</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f5f5f5;
+      color: #333;
+    }
+
+    header {
+      background: #0077cc;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+
+    nav {
+      background: #005fa3;
+      padding: 10px 0;
+      text-align: center;
+    }
+
+    nav a {
+      color: white;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    section {
+      padding: 30px;
+      max-width: 900px;
+      margin: auto;
+      background: white;
+      margin-top: 20px;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+
+    h2 {
+      color: #0077cc;
+    }
+
+    footer {
+      text-align: center;
+      padding: 15px;
+      background: #333;
+      color: white;
+      margin-top: 30px;
+    }
+
+    .galerie img {
+      width: 200px;
+      height: auto;
+      margin: 10px;
+      border-radius: 5px;
+      box-shadow: 0 0 5px rgba(0,0,0,0.2);
+    }
+
+    .galerie {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Voleiul – Sportul Echipei și Al Înălțimii</h1>
+    <p>Atestat la Informatică - Realizat de [Numele Tău]</p>
+  </header>
+
+  <nav>
+    <a href="#introducere">Acasă</a>
+    <a href="#istorie">Istorie</a>
+    <a href="#reguli">Reguli</a>
+    <a href="#jucatori">Jucători</a>
+    <a href="#galerie">Galerie</a>
+  </nav>
+
+  <section id="introducere">
+    <h2>Introducere</h2>
+    <p>Voleiul este un sport spectaculos, practicat la nivel internațional, ce pune accent pe lucrul în echipă, coordonare și agilitate. A fost inventat în 1895 și este astăzi unul dintre cele mai populare sporturi de echipă din lume. Este practicat atât în săli de sport, cât și pe plajă, sub forma voleiului de plajă.</p>
+  </section>
+
+  <section id="istorie">
+    <h2>Istoria Voleiului</h2>
+    <p>Voleiul a fost inventat în anul 1895 de William G. Morgan în Massachusetts, SUA. Inițial, sportul se numea "mintonette". Morgan a creat acest sport pentru a combina elemente de tenis, baschet și handbal, oferind o alternativă mai puțin solicitantă decât baschetul. Voleiul a devenit sport olimpic în 1964, la Jocurile Olimpice de la Tokyo.</p>
+  </section>
+
+  <section id="reguli">
+    <h2>Reguli de bază</h2>
+    <ul>
+      <li>Fiecare echipă are 6 jucători pe teren.</li>
+      <li>Scopul este de a trimite mingea peste fileu în terenul advers și de a împiedica întoarcerea ei.</li>
+      <li>O echipă are voie la maximum 3 atingeri înainte de a trimite mingea peste fileu.</li>
+      <li>Meciul se joacă pe seturi, iar fiecare set se încheie la 25 de puncte (cu diferență de 2 puncte).</li>
+      <li>Mingea nu poate fi prinsă sau ținută, doar lovită.</li>
+    </ul>
+  </section>
+
+  <section id="jucatori">
+    <h2>Jucători celebri</h2>
+    <ul>
+      <li><strong>Giba</strong> (Brazilia) – considerat unul dintre cei mai buni jucători din istoria voleiului.</li>
+      <li><strong>Karch Kiraly</strong> (SUA) – singurul care a câștigat aur olimpic atât la volei în sală, cât și pe plajă.</li>
+      <li><strong>Natalia Pereira</strong> (Brazilia) – jucătoare emblematică a voleiului feminin.</li>
+      <li><strong>Ivan Zaytsev</strong> (Italia) – cunoscut pentru serviciul puternic și precizia atacului.</li>
+    </ul>
+  </section>
+
+  <section id="galerie">
+    <h2>Galerie Foto</h2>
+    <div class="galerie">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/e/e5/Volleyball_Olympics_2016.jpg" alt="Volei Olimpic">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/2/26/Volleyball_beach_match.jpg" alt="Volei pe plajă">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/1/15/Volleyball_Player_Spike.jpg" alt="Lovitură de atac">
+    </div>
+  </section>
+
+  <footer>
+    &copy; 2025 - Atestat realizat de [Numele Tău], profesor coordonator: [Numele Profesorului]
+  </footer>
+
+</body>
+</html>
