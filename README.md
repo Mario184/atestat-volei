@@ -119,9 +119,9 @@ background-color: rgba(0,0,0,0.8);
 <body>
 <h2>Galerie Foto</h2>
 <div class="slideshow-container">
-<img class="slides" src="galerie1.jpg" alt="Sarmale">
-<img class="slides" src="galerie2.jpg" alt="Cozonac">
-<img class="slides" src="galerie3.jpg" alt="Papanași">
+<img class="[slides" src="galerie1.jpg](https://imgs.search.brave.com/HU5WTf0Ngq0QJb6vACCGnVu1WKHJx-CDlNRA2YuedwE/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly93d3cu/YWx5b25hc2Nvb2tp/bmcuY29tL3dwLWNv/bnRlbnQvdXBsb2Fk/cy8yMDIxLzA1L01v/bGRvdmFuLWNhYmJh/Z2Utcm9sbHMtc2Fy/bWFsZS0xMy5qcGc)" alt="Sarmale">
+<img class="[slides" src="galerie2.jpg](https://imgs.search.brave.com/aM7HfyZ1I5n2ayomJLlkdRZQfgASE4VLF6rw8jC0LsY/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9ib2Jz/LXJlZG1pbGwudHJh/bnNmb3Jtcy5zdmRj/ZG4uY29tL3Byb2R1/Y3Rpb24vcmVjaXBl/cy9Db3pvbmFjLUJy/ZWFkLTIuanBnP3c9/MTI4MCZoPTYzMyZh/dXRvPWNvbXByZXNz/LGZvcm1hdCZmaXQ9/bWF4JmRtPTE3MzAz/OTk4NTQmcz0yZjYw/ZWFlYjQyMzM2NmJl/YzUxMjNlZDk2Mzc1/OGU4ZQ)" alt="Cozonac">
+<img class="[slides" src="galerie3.jpg](https://imgs.search.brave.com/WpBbZEUUqk0u9XK3zHS3nlH2Xp3bMxoNiDzddT0btUw/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9jcmlz/dGluYXNraXRjaGVu/LmNvbS93cC1jb250/ZW50L3VwbG9hZHMv/MjAyNC8wNC9ob3ct/dG8tZWF0LXBhcGFu/YXNpLmpwZw)" alt="Papanași">
 <a class="prev" onclick="plusSlides(-1)">❮</a>
 <a class="next" onclick="plusSlides(1)">❯</a>
 </div>
