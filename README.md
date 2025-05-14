@@ -1,55 +1,137 @@
-# Cod HTML Site Rețete și Informații Despre Mâncăruri
+<Volei>
+<html lang="ro">
+<head>
+  <meta charset="UTF-8">
+  <title>Atestat Informatică - Volei</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f5f5f5;
+      color: #333;
+    }
 
-## Sarmale
-- ![Sarmale](https://via.placeholder.com/150)
-- Sarmalele sunt nelipsite de pe masa de Crăciun sau de la alte sărbători mari.
-- Se folosesc foi de varză murată sau, în anumite zone, frunze de viță de vie.
-- Umplutura conține carne tocată (de porc, vită sau amestec), orez și ceapă călită.
-- Condimentele frecvent folosite sunt piperul, cimbrul și boiaua dulce.
-- Sunt gătite lent, în oale de lut sau email, înăbușite cu suc de roșii.
-- Sarmalele sunt servite cu mămăligă și smântână în multe regiuni.
+    header {
+      background: #0077cc;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
 
-## Ciorbă de burtă
-- ![Ciorbă de burtă](https://via.placeholder.com/150)
-- Un preparat românesc apreciat pentru gustul acru și textura cremoasă.
-- Se folosește burtă de vită prefiartă, oase pentru supă, morcov, țelină.
-- Zeama se îngroașă cu gălbenuș de ou și smântână, fără a fierbe după aceea.
-- Se servește cu oțet, ardei iute și mujdei de usturoi.
-- Are o valoare nutrițională ridicată, datorită colagenului din burtă.
-- Este considerată un remediu tradițional împotriva mahmurelii.
+    nav {
+      background: #005fa3;
+      padding: 10px 0;
+      text-align: center;
+    }
 
-## Mămăligă cu brânză
-- ![Mămăligă cu brânză](https://via.placeholder.com/150)
-- Este un fel de mâncare simplu și tradițional, asociat cu zona rurală.
-- Se prepară prin fierberea mălaiului în apă cu sare până devine consistent.
-- Se servește cu brânză de burduf, telemea sau cașcaval ras.
-- Uneori se adaugă smântână și ou ochi pentru un plus de savoare.
-- În Maramureș, se servește cu jumări și cârnați.
-- Este bogată în carbohidrați și săracă în grăsimi dacă se servește simplă.
+    nav a {
+      color: white;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
 
-## Cozonac
-- ![Cozonac](https://via.placeholder.com/150)
-- Cozonacul este desertul tradițional al Crăciunului și Paștelui.
-- Aluatul dospit este îmbogățit cu ouă, lapte și unt pentru un gust bogat.
-- Se umple cu nuci, cacao, stafide sau rahat în funcție de regiune.
-- Se coace în tăvi unse și tapetate, de obicei la foc moderat.
-- Glazura de ou îi oferă luciu și o crustă rumenă.
-- Este un simbol al ospitalității și al tradiției culinare românești.
+    nav a:hover {
+      text-decoration: underline;
+    }
 
-## Papanași
-- ![Papanași](https://via.placeholder.com/150)
-- Desert specific Moldovei, cu origine incertă, dar răspândit național.
-- Se prepară din brânză de vaci, ou, griș și făină.
-- Forma clasică este de gogoșică cu un moț sferic deasupra.
-- Se prăjesc în ulei încins până capătă crustă aurie.
-- Se servesc cu smântână și dulceață (de vișine, afine, zmeură).
-- Există și variante fierte, mai ușoare, servite cu zahăr și scorțișoară.
+    section {
+      padding: 30px;
+      max-width: 900px;
+      margin: auto;
+      background: white;
+      margin-top: 20px;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
 
-## Plăcintă cu mere
-- ![Plăcintă cu mere](https://via.placeholder.com/150)
-- Desert clasic preparat din aluat fraged sau foi subțiri.
-- Umplutura este făcută din mere rase, zahăr și scorțișoară.
-- Uneori se adaugă nuci tocate sau stafide în umplutură.
-- Este coptă până ce devine aurie, apoi pudrată cu zahăr.
-- Se servește caldă sau rece, simplă sau cu frișcă.
-- Foarte populară în toate regiunile țării, inclusiv în școli.
+    h2 {
+      color: #0077cc;
+    }
+
+    footer {
+      text-align: center;
+      padding: 15px;
+      background: #333;
+      color: white;
+      margin-top: 30px;
+    }
+
+    .galerie img {
+      width: 200px;
+      height: auto;
+      margin: 10px;
+      border-radius: 5px;
+      box-shadow: 0 0 5px rgba(0,0,0,0.2);
+    }
+
+    .galerie {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Voleiul – Sportul Echipei și Al Înălțimii</h1>
+    <p>Atestat la Informatică - Realizat de Dumitru Mario-Sebastian</p>
+  </header>
+
+  <nav>
+    <a href="#introducere">Acasă</a>
+    <a href="#istorie">Istorie</a>
+    <a href="#reguli">Reguli</a>
+    <a href="#jucatori">Jucători</a>
+    <a href="#galerie">Galerie</a>
+  </nav>
+
+  <section id="introducere">
+    <h2>Introducere</h2>
+    <p>Voleiul este un sport spectaculos, practicat la nivel internațional, ce pune accent pe lucrul în echipă, coordonare și agilitate. A fost inventat în 1895 și este astăzi unul dintre cele mai populare sporturi de echipă din lume. Este practicat atât în săli de sport, cât și pe plajă, sub forma voleiului de plajă.</p>
+  </section>
+
+  <section id="istorie">
+    <h2>Istoria Voleiului</h2>
+    <p>Voleiul a fost inventat în anul 1895 de William G. Morgan în Massachusetts, SUA. Inițial, sportul se numea "mintonette". Morgan a creat acest sport pentru a combina elemente de tenis, baschet și handbal, oferind o alternativă mai puțin solicitantă decât baschetul. Voleiul a devenit sport olimpic în 1964, la Jocurile Olimpice de la Tokyo.</p>
+  </section>
+
+  <section id="reguli">
+    <h2>Reguli de bază</h2>
+    <ul>
+      <li>Fiecare echipă are 6 jucători pe teren.</li>
+      <li>Scopul este de a trimite mingea peste fileu în terenul advers și de a împiedica întoarcerea ei.</li>
+      <li>O echipă are voie la maximum 3 atingeri înainte de a trimite mingea peste fileu.</li>
+      <li>Meciul se joacă pe seturi, iar fiecare set se încheie la 25 de puncte (cu diferență de 2 puncte).</li>
+      <li>Mingea nu poate fi prinsă sau ținută, doar lovită.</li>
+    </ul>
+  </section>
+
+  <section id="jucatori">
+    <h2>Jucători celebri</h2>
+    <ul>
+      <li><strong>Giba</strong> (Brazilia) – considerat unul dintre cei mai buni jucători din istoria voleiului.</li>
+      <li><strong>Karch Kiraly</strong> (SUA) – singurul care a câștigat aur olimpic atât la volei în sală, cât și pe plajă.</li>
+      <li><strong>Natalia Pereira</strong> (Brazilia) – jucătoare emblematică a voleiului feminin.</li>
+      <li><strong>Ivan Zaytsev</strong> (Italia) – cunoscut pentru serviciul puternic și precizia atacului.</li>
+    </ul>
+  </section>
+
+  <section id="galerie">
+    <h2>Galerie Foto</h2>
+    <div class="galerie">
+      <img src="https://imgs.search.brave.com/zqgHnyVGShbD0o-53TDM95G5MqHbhCL9OUyRwIwgM5A/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93d3cu/b2xpbXBpYWRhdG9k/b2RpYS5jb20uYnIv/d3AtY29udGVudC91/cGxvYWRzLzIwMjAv/MDIvYnJhc2lsLWNh/bXBlYW8tb2xpbXBp/Y28tZGUtdm9sZWkt/ZW0tMTk5Mi5qcGVn
+" alt="Volei Olimpic">
+      <img src="https://www.prosport.ro/wp-content/uploads/2024/08/mesaj-volei-pe-plaja-1050x1400.jpg" alt="Volei pe plajă">
+      <img src="https://imgs.search.brave.com/V97IpMQQLsZ4cqKQFYMpowZCk-BZ6jf-DheunOg8cvg/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pMC53/cC5jb20vY29hY2hp/bmd2Yi5jb20vd3At/Y29udGVudC91cGxv/YWRzLzIwMTYvMDUv/VVNBVi1Td2luZy1H/b29kLmpwZz9maXQ9/NjAwLDM1MCZzc2w9/MQ" alt="Lovitură de atac">
+    </div>
+  </section>
+
+  <footer>
+    &copy; 2025 - Atestat realizat de Dumitru Mario-Sebastian, profesor coordonator: Cojocar Horobat Luminita
+  </footer>
+
+</body>
+</html>
